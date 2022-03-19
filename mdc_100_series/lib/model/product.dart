@@ -12,7 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-enum Category { all, accessories, clothing, home, }
+enum Category {
+  all,
+  accessories,
+  clothing,
+  home,
+}
 
 class Product {
   const Product({
@@ -30,6 +35,7 @@ class Product {
   final int price;
 
   String get assetName => '$id-0.jpg';
+
   String get assetPackage => 'shrine_images';
 
   @override
